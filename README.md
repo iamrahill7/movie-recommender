@@ -13,3 +13,20 @@ The IMDb 5000 Movie Dataset includes information about 5000 movies scraped from 
 The Movies Dataset contains metadata for 45,000 movies from TMDb (The Movie Database), including user ratings, genres, and cast information.
 
 - [The Movies Dataset on Kaggle](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
+
+## How to Get the API Key?
+1. **Create an Account:** Sign up on The Movie Database (TMDb) website.
+   
+2. **Request API Key:** Navigate to the API section in your account settings on TMDb. Fill out the required details to apply for an API key. If asked for a website URL, you can input "NA" if not applicable. Once approved, you will find your API key in the API sidebar of your account.
+
+## Understanding Similarity Score and Cosine Similarity
+
+### Similarity Score
+- **Definition:** It is a numerical value between 0 and 1 that indicates how similar two items are based on their text details.
+
+### Cosine Similarity
+- **Functionality:** Measures the cosine of the angle between two vectors in a multi-dimensional space.
+- **Advantage:** Useful for determining similarity between documents regardless of their size, emphasizing orientation rather than distance.
+
+These measures help in efficiently recommending items (such as movies) by quantifying their textual similarity using mathematical metrics like cosine similarity.
+
